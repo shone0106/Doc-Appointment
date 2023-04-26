@@ -16,7 +16,7 @@ function App() {
         <Sidebar/>
       </Col>
       <Col >
-      <Container>
+      <Container className="m-4">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/doctors/:id" element={<ViewDoctor/>} />
